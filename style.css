@@ -1,0 +1,1007 @@
+* {
+  font-family: 'Source Serif 4', sans-serif;
+  margin: 0px;
+  margin-bottom: 0px;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+body{
+  background-color:#fbf6f0;
+  position: relative;
+
+}
+
+/*-------------------------------------------------------- Menu ---------------------------------------------------------*/
+
+
+
+
+
+
+ul.menu {
+  position: fixed;
+  list-style-type: none;
+  width: 100%;
+  margin-right: 1000px;
+  padding:0;
+  left: 0;
+  top: 0;
+  background-color: #2a2a2a;
+  z-index: 3;
+}
+
+ul.menu li {float: right;}
+
+ul.menu li a {
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 17px;
+  text-decoration: none;
+}
+
+ul.menu li a:hover:not(.active) {background-color: rgb(97, 96, 96);}
+
+ul.menu li a.active {background-color: #04AA6D;}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+ display: none;
+}
+ .img-inicio {
+   display: none;
+ }
+ .img-logo {
+   display: none;
+ }
+
+ .section1 {
+  display: none;
+ }
+ 
+ .section2 {
+  display: none;
+ }
+
+.section3 {
+  display: none;
+}
+
+.section4 {
+  display: none;
+}
+
+}
+
+
+
+a{
+  transition: ease 0.12s;
+}
+
+a:hover{
+  border: solid whitesmoke 0.1px;
+} 
+
+
+
+.img-logo {
+  left: 50px;
+  margin-top: 8px;
+  top:0px;
+  position: fixed;
+  z-index: 4;
+  height: 30px;
+  width: 190px;
+}
+/*-------------------------------------------------------- Menu responsive---------------------------------------------------------*/
+
+#buttom-logo{
+  float: right;
+  font-size: 25px;
+  padding: 10px 20px;
+  z-index: 2;
+}
+
+
+.menu-logo-responsive-div {
+position: absolute;
+background-color: #2a2a2a;
+height: 50px;
+width: 100%;
+left: 0;
+z-index: 1;
+
+}
+
+.menu-responsive {
+  position: absolute;
+  background-color: burlywood;
+  height: 175px;
+  width: 100%;
+  left: 0;
+  z-index: 0;
+  top: 0px;
+  
+}
+
+.menu-responsive-texto {
+  line-height:37px;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  z-index: 1;
+  text-decoration: none;
+}
+
+#img-logo-responsive {
+text-align: center;
+margin-right: 5px;
+width: 30px;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+.menu-responsive {
+display: none;
+ }
+}
+
+
+
+/*-------------------------------------------------------- section 1 los martines + foto ---------------------------------------------------------*/
+
+
+.img-inicio {
+  width: 100%;
+  top: 100px;
+}
+
+
+
+.main-title {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  font-size: 55px;
+  top: -620px;
+  text-align: center;
+}
+
+
+
+@media all and (max-width: 600px) {
+  .main-title {
+  position: relative;
+  font-size: 20px;
+  top: 170px;
+  left: 0;
+  } 
+ }
+
+
+
+
+
+
+/*------------------------------------------------------ Sextio 2 Nuestra famila + Nuestra historia ---------------------------*/
+
+
+#separador{
+
+  border-top: black solid 1.3px;
+
+}
+
+
+
+
+
+
+.titulo-texto-nuestra-familia {
+  position: relative;
+  margin-left: 0px;
+  margin-right: 320px;
+  top: -600px;
+  z-index: 1;
+  left: 170px;
+ }
+ #asd-general {
+  position: absolute;
+  background-color: #070707;
+  opacity: .6; 
+}
+
+.asd1 {
+  top: 265px;
+  left: 160px;
+  height: 30px;
+  width: 990px;
+}
+
+.asd2 {
+  top: 306px;
+  left: 160px;
+  height: 30px;
+  width: 1035px;
+}
+
+
+.asd3 {
+  top: 348px;
+  left: 160px;
+  height: 30px;
+  width: 530px;
+}
+
+ 
+
+.nuestra-familia-texto {
+  line-height: 40px; 
+  font-size: 20px;
+  color: white;
+}
+
+
+
+
+
+
+
+.foto-nuestra-historia {
+  position: relative;
+  max-height: 600px;
+  max-width: 600px;
+  top: -60px;
+  left: 100px;
+  padding-bottom: 150px;
+  z-index: 2;
+ 
+}
+.titulo-texto-nuestra-historia {
+  position: relative;
+  margin-left: 350px;
+  margin-right: 400px;
+  top: -550px;
+  left: 380px;
+}
+.Nuestra-historia-titulo{
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 33px;
+}
+.Nuestra-historia-texto {
+  position: relative;
+  line-height: 25px;
+  text-align: justify;
+}
+
+
+ 
+
+
+
+
+/*-------------------------------------------------------- Nuestra Familia, parafo y foto parte 2 ---------------------------------------------------------*/
+
+.separador1 {
+  border-top: black solid 1.3px;
+  position: relative;
+  top: -350px;
+}
+
+
+.foto-titulo-desconosido {
+  position: absolute;
+  max-height: 600px;
+  max-width: 600px;
+  top: 1360px;
+  left: 675px;
+  padding-top: 80px;
+  z-index: 1;
+}
+
+.titulo-texto-desconosido {
+  
+ position: relative;
+ margin-right: 800px;
+ left: 50px;
+ top: -260px;
+ text-align: justify;
+}
+
+.titulo-desconosido {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  font-size: 33px;
+  margin-bottom: 20px;
+}
+
+.texto-desconosido {
+  position: relative;
+  line-height: 25px;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------------------- footer ---------------------------------------------------------*/
+
+/*
+footer section{
+  float: right;
+  margin-right: 10px;
+  margin-top: 2rem;
+}
+footer p{
+  margin: 0;
+}
+footer a{
+  color: whitesmoke;
+  transition: ease 0.12s;
+}
+footer a:hover{
+  border: none;
+  opacity: 0.6
+}
+#button{
+  text-decoration: none;
+  transition: ease 0.12s;
+  color: whitesmoke;
+}
+#button:hover{
+  opacity: 0.6;
+  border: none;
+}
+.boton {
+
+    position: absolute;
+    z-index: 1;
+    float: right;
+    max-height: 100px;
+    max-width: 100px;
+    top: 0px;
+    margin-right: 100px;
+    margin-top:  -150px;
+  }
+/* 
+.img-footer {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  z-index: 1;
+}
+*/
+
+.img-flecha {
+  height: 30px;
+  width: 30px;
+}
+/*----------------------------footer Sobre Inicio--------------------*/
+.img-logo-footer-inicio {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  height: 25px;
+  width: 105px;
+  z-index: 1;
+}
+
+.fondo-del-footer-inicio {
+  position: relative;
+  top: 100px;
+  height: 50px;
+  width: 100%;
+  background-color: #070707;
+}
+
+.parrafo-copyright-inicio {
+position: absolute;
+color: #696969;
+top: 15px;
+left: 200px;
+font-size: 14px;
+z-index: 2;
+}
+
+.parrafo-developer-inicio {
+  position: absolute;
+  color: #696969;
+  top: 15px;
+  right: 30px;
+  font-size: 14px;
+  z-index: 1;
+}
+
+/*----------------------------footer Sobre Nosotros--------------------*/
+
+.img-logo-footer-sobrenosotros {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  height: 25px;
+  width: 105px;
+  z-index: 1;
+}
+
+.fondo-del-footer-sobrenosotros {
+  position: relative;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #070707;
+}
+.parrafo-copyright-sobrenosotros {
+position: absolute;
+color: #696969;
+top: 15px;
+left: 200px;
+font-size: 14px;
+z-index: 2;
+}
+
+.parrafo-developer-sobrenostros {
+  position: absolute;
+  color: #696969;
+  top: 15px;
+  right: 30px;
+  font-size: 14px;
+  z-index: 1;
+}
+p a{
+  color: #D3D3D3;
+  transition: ease 0.12s;
+}
+
+
+p a:hover{
+  border: none;
+  opacity: 0.6
+}
+
+
+
+
+/*----------------------------footer Sobre Contactos--------------------*/
+.img-logo-footer-contactos {
+  position: absolute;
+  top: 10px;
+  left: 25px;
+  height: 25px;
+  width: 105px;
+  z-index: 1;
+}
+
+.fondo-del-footer-contactos {
+  position: relative;
+  top: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #070707;
+}
+.parrafo-copyright-contactos {
+position: absolute;
+color: #696969;
+top: 15px;
+left: 200px;
+font-size: 14px;
+z-index: 2;
+}
+
+.parrafo-developer-contactos {
+  position: absolute;
+  color: #696969;
+  top: 15px;
+  right: 30px;
+  font-size: 14px;
+  z-index: 1;
+}
+
+/*-------------------------------------------------------- tarjetas ---------------------------------------------------------*/
+
+.img-gta5-sobrenosotros {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  top: 5px;
+}
+
+
+.post{
+
+  overflow: hidden;
+  position: absolute;
+  background-color: #2a2a2a;
+  width: 279px;
+  margin-top: 150px;
+  margin-left: 80px;
+  border-radius: 5px;
+  display: block;
+  transition: ease 1;
+  height: 430px;
+  padding: 0;
+  top: 0px;
+  left: 0;
+}
+
+#pela {
+  left: 0;
+}
+
+#carne {
+  left: 470px;
+}
+
+
+#naff {
+  left: 925px;
+}
+
+
+
+.img-zoom{
+  width: 100%;
+  height: 100%;
+  transition: ease 0.3s;
+  margin: 0;
+}
+
+
+
+.post:hover{
+  overflow: hidden;
+  filter: brightness(100%);
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.img-zoom:hover {
+  overflow: hidden;
+  transform: scale(1.10);
+}
+
+.post:hover .img-zoom  {
+  transform: scale(1.10);
+}
+
+.titulo-post{
+  position: absolute;
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  z-index: 2;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.img-zoom  .titulo-carne:hover{
+  transform: scale(1.10);
+}
+
+#titulo-pela{
+  top: 230px;
+  left: 170px;
+ 
+}
+
+#titulo-carne{
+  top: 230px;
+  left: 95px;
+  
+}
+
+#titulo-naff{
+  top: 230px;
+  left: 130px;
+
+}
+
+
+.parteinterir-tajetas {
+  overflow: hidden;
+  position: absolute;
+  width: 279px;
+  height: 280px;
+  top: 0px;
+  left: 0px;
+}
+
+
+
+
+
+.tarjeta-texto-pela {
+color: #73C6B6 ;
+position: absolute;
+top: 310px;
+left: 25px;
+z-index: 1;
+}
+
+.tarjeta-texto-carne {
+  color: #73C6B6 ;
+  position: absolute;
+  top: 310px;
+  left: 25px;
+  z-index: 1;
+}
+
+.tarjeta-texto-naff {
+  color: #73C6B6 ;
+  position: absolute;
+  top: 310px;
+  left: 25px;
+  z-index: 1;
+}
+
+#flecha-tarjetas {
+position: absolute;
+width: 45px;
+height: 45px;
+top: 70px;
+left: -35px;
+}
+
+
+/*-------------------------------------------------------- contactos ---------------------------------------------------------*/
+
+
+
+.img-gta5 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+  top: 5px;
+}
+
+.titulo-contacto {
+  position:absolute;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 300px;
+  top: 70px;
+  right: 1025px;
+  font-size: 1.50rem;
+  color: white;
+}
+
+
+
+.contacto-fondo {
+  position: absolute;
+  background-color: white;
+  width:  950px;
+  height: 550px;
+  top: 100px;
+  left: 200px;
+  border-radius: 15px;
+  z-index: 2;
+  overflow: hidden;
+}
+
+
+
+.todo-el-texto {
+position: absolute;
+top: 150px;
+left: 50px;
+
+}
+
+
+
+/*-------------------------------------------------------- iconos ---------------------------------------------------------*/
+
+
+
+.iconos-img-discord {
+position: absolute;
+width: 22px;
+display: inline;
+}
+
+.iconos-img-gmail {
+  position: absolute;
+width: 19px;
+}
+
+.iconos-img-github {
+  position: absolute;
+  width: 32px;
+}
+
+
+#pela-textosolo {
+  position: relative;
+  top: 0;
+  left: 50px;
+  } 
+
+#carne-textosolo {
+  position: relative;
+  top: -65px;
+  left: 350px;
+
+  }   
+
+#naff-textosolo {
+  position: relative;
+  top: -130px;
+  left: 650px;
+}
+
+#pela-icons1 {
+  position: absolute;
+  top: 0px;
+  left: 18px;
+}
+
+#pela-icons2 {
+  position: absolute;
+  top: 28px;
+  left: 20px;
+}
+
+#pela-icons3 {
+  position: absolute;
+  top: 48px;
+  left: 13px;
+}
+
+
+#carne-icons1 {
+  position: absolute;
+  top: 0px;
+  left: 318px;
+}
+
+#carne-icons2 {
+  position: absolute;
+  top: 28px;
+  left: 320px;
+}
+
+#carne-icons3 {
+  position: absolute;
+  top: 48px;
+  left: 313px;
+}
+
+#naff-icons1 {
+  position: absolute;
+  top: 3px;
+  left: 616px;
+}
+
+#naff-icons2 {
+  position: absolute;
+  top: 30px;
+  left: 618px;
+}
+
+/*-------------------------------------------------------- imgaen dentro de la caja ---------------------------------------------------------*/
+
+
+
+
+
+.img-gta-png {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  z-index: 0;
+}
+
+
+
+
+
+
+/*-------------------------------------------------------- lines verticales ---------------------------------------------------------*/
+
+.linea-contacto1 {
+ position: absolute;
+background-color: black;
+  top: 150px;
+  left: 60px;
+  
+
+}
+
+
+.linea-contacto2 {
+  position: absolute;
+  background-color: black;
+  top: 150px;
+  left: 660px;
+ }
+
+
+ .linea-contacto3 {
+  position: absolute;
+  background-color: black;
+  top: 150px;
+  left: 360px;
+ }
+
+
+
+
+#texto-contacto {
+  position: absolute;
+  font-size: 35px;
+  z-index: 2;
+}
+
+
+
+/*-------------------------------------------------------- configurar nombres de los contactos ---------------------------------------------------------*/
+
+
+
+.texto-fran {
+  top: 85px;
+  left: 150px;
+}
+
+.texto-carne { 
+  top: 85px;
+  left: 400px;
+}
+
+.texto-naff {
+  top: 85px;
+  left: 725px;
+}
+
+/*------------------------------- ElTioCarne Sobre nosotros tarjeta -------------------------------*/
+
+.fondo-blanco {
+background-color: white;
+border-radius: 12px;
+position: absolute;
+width: 800px;
+height: 700px;
+top: 150px;
+left: 280px;
+box-shadow: 0 0 10px 0 #B6F5E9;
+}
+
+.texto-informacion-personal {
+position: relative;
+top: 10px;
+left: 20px;
+font-size: 18px;
+}
+
+.informacion-personal {
+position: absolute;
+border-top: #E6E6FA solid 1.3px;
+width: 100%;
+top: 50px;
+left: 0;
+}
+
+#texto-contenido-carne {
+position: absolute;
+font-weight: 500;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-size: 14px;
+left: 30px;
+}
+
+
+
+.texto-foto {
+  top: 25px;
+}
+
+
+.img-cara {
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  top: 25px;
+  left: 250px;
+  box-shadow: 0 0 7px 0 gray;
+  }
+
+
+
+  textarea {
+    resize: none;
+    border-color: #fbf6f0;
+    outline: none;
+  }
+
+
+.nombre-carne {
+position: absolute;
+top: 180px;
+left: 20px;
+}
+
+.nombre-jhonmartinez {
+position: absolute;
+border-radius: 7px; 
+width: 343px;
+height: 30px;
+top: 170px;
+left: 250px;
+font-weight: 600;
+background-color: #eff2f5;
+padding-top: 10px;
+padding-left: 20px;
+}
+
+.descripcion-carne {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+}
+
+
+.descripcion-texto-carne {
+  position: absolute;
+  border-radius: 7px; 
+  width: 325px;
+  height: 100px;
+  top: 250px;
+  left: 250px;
+  font-weight: 600;
+  background-color: #eff2f5;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+}
+
+
+.habilidades-titulo-carne {
+  position: absolute;
+  top: 400px;
+  left: 20px;
+}
+
+.habilidades-texto-carne {
+  position: absolute;
+  border-radius: 7px; 
+  width: 355px;
+  height: 80px;
+  top: 400px;
+  left: 250px;
+  font-weight: 600;
+  background-color: #eff2f5;
+  padding-top: 10px;
+  padding-left: 8px;
+}
+
+
+.trabajo-titulo-carne {
+  position: absolute;
+  top: 550px;
+  left: 20px;
+}
+
+.trabajo-texto-carne {
+  position: absolute;
+  border-radius: 7px; 
+  width: 345px;
+  height: 45px;
+  top: 550px;
+  left: 250px;
+  font-weight: 600;
+  background-color: #eff2f5;
+  padding-top: 10px;
+  padding-left: 20px;
+}
